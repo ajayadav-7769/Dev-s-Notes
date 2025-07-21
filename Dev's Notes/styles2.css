@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f4f4f4; */
+}
+
+header {
+    /* background-color: #fbfbfb; */
+    /* color: #fff; */
+    padding: 1em 0;
+   /* text-align: right;  /* Align header to the right */
+}
+
+.home-text {
+    max-width: 60%;
+}
+
+.home-text h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.home-text p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.home-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    margin: 2em 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.about-cotent{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-content-data{
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;  /* Change to inline-block for proper alignment */
+    font-size: 18px;  /* Adjust font size */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* Change font family */
+    align: right;
+}
+.nav
+{
+    text-align: right;
+    padding: 0%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+    /* color: skyblue; */
+    align: right;
+}
+
+nav ul li a {
+    color: #0a0a0a;
+    /*text-decoration: none;*/
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+}
+
+main {
+    padding: 2em;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaf7f9;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.categories-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #eaf7f9; */
+    padding: 2em;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    
+}
+
+.note{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding: 5em; */
+    /* border-radius: 80px; */
+
+    width: 850px; /* adjust as needed */
+    height: 50px; /* adjust as needed */
+    /* background-color: #38bbef; adjust as needed */
+    border-radius: 65px; /* adjust as needed for roundness */
+    border: 2px solid #000000; /* optional border style */
+    box-shadow: 0 4px 8px rgba(180, 192, 240, 0.1); /* optional box shadow for effect */
+    padding: 20px; /* optional padding inside the box */
+    
+    /* padding-right: 689px; */
+
+}
+
+.main-data{
+    /* background-color: #007bff; */
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.main-cate{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 0em;
+    border-radius: 10px;
+    /* background-color: beige; */
+}
+
+.main-pic{
+    /* background-color: #0a0a0a; */
+    align-items: left;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em;
+    border-radius: 10px;
+}
+
+.book-data{
+    display: flex;
+    justify-content: space-around;
+}
+
+.custom-hr {
+    width: 55%; /* Adjust the percentage or use a fixed value like '200px' */
+    border: 0;
+    height: 1px;
+    background-color: #d7d5d5; Change the color as needed
+    /* margin: 20px 0; Adjust spacing as needed */
+}
+
+.pdf-name{
+    padding-left: 50px;
+}
+
+.preview-button{
+    padding-right: 50px;
+}
+
+.download-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+/* 
+download-button .icon {
+    margin-right: 10px;
+}
+
+download-button .icon::before {
+    content: '\21E9'; /* Unicode for downward arrow */
+    font-size: 20px;
+} */
+
+.register-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px; /* Rounded corners */
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from text */
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #333; /* Dark border to match background */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.register-button:hover {
+    background-color: #444; /* Slightly lighter shade on hover */
+}
